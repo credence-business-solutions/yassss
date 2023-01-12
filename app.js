@@ -7,6 +7,7 @@ const bodyParser = require("body-parser");
 const podcasts = []
 let counterId = 0
 const app = express();
+//yasss bitch, this the change that I made
 
 app.use(express.json());
 app.use(bodyParser.json());
